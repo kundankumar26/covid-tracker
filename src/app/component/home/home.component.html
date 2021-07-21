@@ -1,0 +1,47 @@
+<div class="jumbotron bg-white text-center">
+    <div class="row">
+        <div class="card col p-3 m-3">
+            <div class="ui small statistic">
+                <div class="label">
+                  Confirmed
+                </div>
+                <div class="value">
+                  {{ totalConfirmed | number }}
+                </div>
+            </div>
+        </div>
+        <div class="card col p-3 m-3">
+            <div class="ui small statistic">
+                <div class="label">
+                  Recovered
+                </div>
+                <div class="value">
+                  {{ totalRecovered | number }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card col p-3 m-3">
+            <div class="ui small statistic">
+                <div class="label">
+                  Death
+                </div>
+                <div class="value">
+                  {{ totalDeath | number }}
+                </div>
+            </div>
+        </div>
+        <div class="card col p-3 m-3">
+            <div class="ui small statistic">
+                <div class="label">
+                  Active
+                </div>
+                <div class="value">
+                  {{ totalActive | number}}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
